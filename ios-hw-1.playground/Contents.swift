@@ -46,7 +46,7 @@ var age1 = 15
 var country1 = "kuwait"
 var area1 = "Riqqa"
 var password1 = "hdgdbj"
-var isKuwaiti1 = true
+let isKuwaiti1 = true
 
 //Person 2
 let firstName2 = "wadha"
@@ -57,7 +57,7 @@ var age2 = 39
 var country2 = "kuwait"
 var area2 = "Riqqa"
 var password2 = "ghdjhgj"
-var isKuwaiti2 = true
+let isKuwaiti2 = true
 
 //Person 3
 let firstName3 = "mounira"
@@ -68,7 +68,7 @@ var age3 = 15
 var country3 = "kuwait"
 var area3 = "Al_ahmadi "
 var password3 = "jfhidk"
-var isKuwaiti3 = true
+let isKuwaiti3 = true
 
 /*
 - - - -
