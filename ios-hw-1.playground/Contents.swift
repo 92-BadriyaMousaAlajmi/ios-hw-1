@@ -84,6 +84,11 @@ var isKuwaiti3 = true
  
  */
 
+//&& ! ||
+
+
+
+
 
 
 // password
@@ -95,13 +100,20 @@ password2==password1
 password3==password1
 
 
-// kuwait
+
+// kuwaiti
 isKuwaiti3==isKuwaiti2
 isKuwaiti3==isKuwaiti1
 isKuwaiti2==isKuwaiti1
 isKuwaiti3 != isKuwaiti2
 isKuwaiti3 != isKuwaiti1
 isKuwaiti2 != isKuwaiti1
+
+var SomeoneISKuwait = isKuwaiti1&&isKuwaiti2&&isKuwaiti3
+ SomeoneISKuwait = isKuwaiti1||isKuwaiti2||isKuwaiti3
+var isKuwait1 = !false
+var isKuwait2 = !false
+var isKuwait3 = !false
 
 // country
 country1==country2
@@ -110,14 +122,6 @@ country3==country1
 country1 != country2
 country2 != country3
 country3 != country1
-
-// area
-area1==area2
-area3==area2
-area3==area1
-area1 != area2
-area3 != area2
-area3 != area1
 
 
 // first_name
@@ -153,6 +157,15 @@ phoneNumber2==phoneNumber3
 phoneNumber1 != phoneNumber2
 phoneNumber1 != phoneNumber3
 phoneNumber2 != phoneNumber3
+
+
+// area
+area1==area2
+area3==area2
+area3==area1
+area1 != area2
+area3 != area2
+area3 != area1
 
 // age
 
